@@ -88,7 +88,26 @@ export const STATIC_YOUTUBE_IDS: Record<string, string> = {
   "rap god": "S7cQ3b0iqLo",
   "sicko mode": "d-JBBNg8YKs",
   "rolling in the deep": "bDtjO-R0QSo",
-  "take me to church": "1kYgXOrA3Jc"
+  "take me to church": "1kYgXOrA3Jc",
+  "no woman no cry": "I26MfvxIk3c",
+  "redemption song": "v-qxVrEhU9o",
+  "is this love": "Dn0_6R6cQ5c",
+  "stand by me": "AYRCFAs2wzk",
+  "what a wonderful world": "C0DPdy98e4c",
+  "three little birds": "E8O-1YKzZsU",
+  "every breath you take": "C3lWwBslWqg",
+  "lean on me": "f4fBxDXgOeA",
+  "let it be": "QAK0pL0jQ3M",
+  "here comes the sun": "KQetemT1sWc",
+  "take on me": "djV11Xf9M4w",
+  "sweet dreams": "qORnIJWvP6M",
+  "everybody wants to rule the world": "a6ErN2tBp2Q",
+  "don't stop me now": "HfG1a0q9MsU",
+  "karma police": "1ccHsU6xqL0",
+  "smooth": "Lur-SGr3mPg",
+  "valerie": "yOJHcEsdm5A",
+  "feel good inc": "Ly7fKAfNCxw",
+  "mr. brightside": "gGdGFtwCNpA"
 };
 
 // Hardcoded beautiful synced lyrics for major songs in our library

@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { AudioLines, House, Search, Library, Heart, Plus, Disc3, User } from 'lucide-react';
+import { AudioLines, House, Search, Library, Heart, Plus, Disc3 } from 'lucide-react';
 import { Playlist } from '../types';
 import { PLAYLISTS, getPlaylistArt } from '../data';
 
@@ -106,21 +106,6 @@ export const Sidebar: React.FC<SidebarProps> = ({
         <span>Liked Songs</span>
       </button>
 
-      <button
-        onClick={() => {
-          setActiveTab('profile');
-          onSelectPlaylist('');
-        }}
-        className={`flex items-center gap-3 px-3 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 border ${
-          activeTab === 'profile'
-            ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20'
-            : 'text-text-secondary hover:text-text-primary hover:bg-bg-card-hover border-transparent'
-        }`}
-      >
-        <User className="w-5 h-5" />
-        <span>Profile</span>
-      </button>
-
       {/* Playlist Section Header */}
       <div className="flex flex-col gap-3">
         <div className="flex items-center justify-between px-3">
@@ -161,9 +146,22 @@ export const Sidebar: React.FC<SidebarProps> = ({
 
       {/* Sidebar Footer Upgrade Promo + Metrics Box */}
       <div className="mt-auto p-4 bg-bg-card-hover rounded-2xl border border-border-medium flex flex-col gap-2.5">
-        <div className="flex items-center gap-2">
-          <Disc3 className="w-4 h-4 text-emerald-400 animate-[spin_10s_linear_infinite]" />
-          <span className="text-[10px] font-bold text-text-muted uppercase tracking-widest">Premium Level</span>
+        <div className="flex items-center gap-3">
+          <div className="w-10 h-10 rounded-full bg-gradient-to-br from-emerald-400 to-emerald-600 flex items-center justify-center text-white font-bold text-xs shadow-md border border-border-app overflow-hidden">
+            <img
+              src="/profile.jpg"
+              alt="Member"
+              className="w-full h-full object-cover"
+              onError={(e) => {
+                (e.target as HTMLImageElement).style.display = 'none';
+              }}
+            />
+            <span className="absolute">GC</span>
+          </div>
+          <div className="flex flex-col">
+            <span className="text-[10px] font-bold text-text-muted uppercase tracking-widest">Premium Level</span>
+            <span className="text-xs font-semibold text-text-primary">Geofferson Co</span>
+          </div>
         </div>
         <div className="text-xs text-text-secondary leading-snug">
           <b className="text-text-primary font-semibold font-display">{totalSongsCount}</b> High-Fidelity Tracks · <b className="text-pink-400 font-semibold font-display">{likedCount}</b> Saved
