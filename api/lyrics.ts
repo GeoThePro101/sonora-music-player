@@ -1,6 +1,17 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { Type } from "@google/genai";
-import { STATIC_LYRICS, generateDynamicFallbackLyrics, getAI } from "./lib/shared";
+import { GoogleGenAI, Type } from "@google/genai";
+
+function generateDynamicFallbackLyrics(title: string, artist: string, duration: number): { time: number; text: string }[] {
+  const lines: { time: number; text: string }[] = [];
+  const interval = duration / 10;
+  for (let i = 0; i < 10; i++) {
+    lines.push({
+      time: Math.round(i * interval),
+      text: i === 0 ? `♪ ${title} by ${artist} ♪` : `♪ ♪ ♪`
+    });
+  }
+  return lines;
+}
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
@@ -20,21 +31,16 @@ export default async function handler(req: VercelRequest, res: VercelResponse) {
     return res.status(400).json({ error: "Missing title or artist parameters" });
   }
 
-  const normTitle = title.toLowerCase().trim();
-  let matchedLyrics = null;
-  for (const [key, val] of Object.entries(STATIC_LYRICS)) {
-    if (normTitle.includes(key) || key.includes(normTitle)) {
-      matchedLyrics = val;
-      break;
-    }
-  }
-
-  if (matchedLyrics) {
-    return res.json({ lyrics: matchedLyrics });
-  }
-
   try {
-    const ai = getAI();
+    const ai = new GoogleGenAI({
+      apiKey: process.env.GEMINI_API_KEY,
+      httpOptions: {
+        headers: {
+          'User-Agent': 'aistudio-build',
+        }
+      }
+    });
+
     const prompt = `Provide highly synchronized lyrics for the song "${title}" by "${artist}".
 The output MUST be a JSON list of lyrics lines with accurate start times in seconds.
 The timestamps must span from 0 up to the song's duration of ${duration} seconds.

@@ -1,5 +1,28 @@
 import type { VercelRequest, VercelResponse } from "@vercel/node";
-import { parseLrc } from "./lib/shared";
+
+function parseLrc(lrc: string): { time: number; text: string }[] {
+  const lines = lrc.split('\n');
+  const result: { time: number; text: string }[] = [];
+  const timeRegex = /\[(\d{2}):(\d{2})\.(\d{2,3})\]/g;
+
+  for (const line of lines) {
+    const times: number[] = [];
+    let match;
+    while ((match = timeRegex.exec(line)) !== null) {
+      const min = parseInt(match[1], 10);
+      const sec = parseInt(match[2], 10);
+      const ms = match[3].length === 2 ? parseInt(match[3], 10) * 10 : parseInt(match[3], 10);
+      times.push(min * 60 + sec + ms / 1000);
+    }
+    const text = line.replace(/\[\d{2}:\d{2}\.\d{2,3}\]/g, '').trim();
+    if (times.length > 0 && text) {
+      for (const time of times) {
+        result.push({ time, text });
+      }
+    }
+  }
+  return result.sort((a, b) => a.time - b.time);
+}
 
 export default async function handler(req: VercelRequest, res: VercelResponse) {
   res.setHeader('Access-Control-Allow-Origin', '*');
