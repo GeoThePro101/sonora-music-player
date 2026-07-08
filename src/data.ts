@@ -889,226 +889,226 @@ export const SONGS: Song[] = [
     genre: "Indie & Soul"
   },
 
-  // ==================== R&B, SOUL & CHILL (ID: 80 to 99) ====================
+  // ==================== EXTRA HITS (ID: 80 to 99) ====================
   {
     id: 80,
-    title: "No Woman No Cry",
-    artist: "Bob Marley",
-    album: "Natty Dread",
-    duration: 287,
+    title: "We Are the Champions",
+    artist: "Queen",
+    album: "News of the World",
+    duration: 179,
     file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    cover: "https://images.unsplash.com/photo-1504280390367-361c6d9f38f4?w=300&auto=format&fit=crop&q=80",
+    cover: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&auto=format&fit=crop&q=80",
     hues: [45, 80],
-    genre: "R&B & Chill"
+    genre: "Rock"
   },
   {
     id: 81,
-    title: "Redemption Song",
-    artist: "Bob Marley",
-    album: "Uprising",
-    duration: 228,
+    title: "Welcome to the Black Parade",
+    artist: "My Chemical Romance",
+    album: "The Black Parade",
+    duration: 312,
     file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-    cover: "https://images.unsplash.com/photo-1446057032654-9d8885b76c2a?w=300&auto=format&fit=crop&q=80",
-    hues: [30, 60],
-    genre: "R&B & Chill"
+    cover: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=300&auto=format&fit=crop&q=80",
+    hues: [0, 180],
+    genre: "Rock"
   },
   {
     id: 82,
-    title: "Is This Love",
-    artist: "Bob Marley",
-    album: "Kaya",
-    duration: 253,
+    title: "Come As You Are",
+    artist: "Nirvana",
+    album: "Nevermind",
+    duration: 219,
     file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-    cover: "https://images.unsplash.com/photo-1511192336575-5a79af67a629?w=300&auto=format&fit=crop&q=80",
-    hues: [50, 90],
-    genre: "R&B & Chill"
+    cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&auto=format&fit=crop&q=80",
+    hues: [180, 210],
+    genre: "Rock"
   },
   {
     id: 83,
-    title: "Stand By Me",
-    artist: "Ben E. King",
-    album: "Don't Play That Song!",
-    duration: 176,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
-    cover: "https://images.unsplash.com/photo-1516280440614-37939bbacd6a?w=300&auto=format&fit=crop&q=80",
-    hues: [200, 240],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 84,
-    title: "What a Wonderful World",
-    artist: "Louis Armstrong",
-    album: "What a Wonderful World",
-    duration: 139,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
-    cover: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=300&auto=format&fit=crop&q=80",
-    hues: [120, 180],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 85,
-    title: "Three Little Birds",
-    artist: "Bob Marley",
-    album: "Exodus",
-    duration: 200,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
-    cover: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=300&auto=format&fit=crop&q=80",
-    hues: [60, 100],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 86,
-    title: "Every Breath You Take",
-    artist: "The Police",
-    album: "Synchronicity",
-    duration: 253,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
-    cover: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=300&auto=format&fit=crop&q=80",
-    hues: [300, 330],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 87,
-    title: "Lean on Me",
-    artist: "Bill Withers",
-    album: "Just As I Am",
-    duration: 263,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
-    cover: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=300&auto=format&fit=crop&q=80",
-    hues: [20, 50],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 88,
-    title: "Let It Be",
-    artist: "The Beatles",
-    album: "Let It Be",
-    duration: 243,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
-    cover: "https://images.unsplash.com/photo-1511379938547-c1f69419868d?w=300&auto=format&fit=crop&q=80",
-    hues: [210, 250],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 89,
-    title: "Here Comes the Sun",
-    artist: "The Beatles",
-    album: "Abbey Road",
-    duration: 185,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
-    cover: "https://images.unsplash.com/photo-1487180142328-054b783fc471?w=300&auto=format&fit=crop&q=80",
-    hues: [40, 70],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 90,
-    title: "Take On Me",
-    artist: "a-ha",
-    album: "Hunting High and Low",
-    duration: 224,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
-    cover: "https://images.unsplash.com/photo-1524368535928-5b5e00ddc76b?w=300&auto=format&fit=crop&q=80",
-    hues: [180, 220],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 91,
-    title: "Sweet Dreams",
-    artist: "Eurythmics",
-    album: "Touch",
-    duration: 215,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
-    cover: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&auto=format&fit=crop&q=80",
-    hues: [270, 310],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 92,
-    title: "Everybody Wants to Rule the World",
-    artist: "Tears for Fears",
-    album: "Songs from the Big Chair",
-    duration: 250,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
-    cover: "https://images.unsplash.com/photo-1513829096960-ef093143c524?w=300&auto=format&fit=crop&q=80",
-    hues: [150, 190],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 93,
-    title: "Don't Stop Me Now",
-    artist: "Queen",
-    album: "Jazz",
-    duration: 209,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
-    cover: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=300&auto=format&fit=crop&q=80",
-    hues: [320, 350],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 94,
-    title: "Karma Police",
-    artist: "Radiohead",
-    album: "OK Computer",
-    duration: 264,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
-    cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&auto=format&fit=crop&q=80",
-    hues: [230, 270],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 95,
-    title: "Smooth",
-    artist: "Santana ft. Rob Thomas",
-    album: "Supernatural",
-    duration: 294,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
-    cover: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&auto=format&fit=crop&q=80",
-    hues: [10, 40],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 96,
-    title: "Wishing Well",
-    artist: "Terence Trent D'Arby",
-    album: "Introducing the Hardline According to Terence Trent D'Arby",
-    duration: 248,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
-    cover: "https://images.unsplash.com/photo-1422056494055-16c04f39c445?w=300&auto=format&fit=crop&q=80",
-    hues: [80, 120],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 97,
-    title: "Valerie",
-    artist: "Amy Winehouse",
-    album: "Back to Black",
-    duration: 224,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
-    cover: "https://images.unsplash.com/photo-1484755560693-a4074577af3a?w=300&auto=format&fit=crop&q=80",
-    hues: [340, 10],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 98,
-    title: "Feel Good Inc",
-    artist: "Gorillaz",
-    album: "Demon Days",
-    duration: 222,
-    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
-    cover: "https://images.unsplash.com/photo-1498038432885-c6f3f1b912ee?w=300&auto=format&fit=crop&q=80",
-    hues: [100, 140],
-    genre: "R&B & Chill"
-  },
-  {
-    id: 99,
     title: "Mr. Brightside",
     artist: "The Killers",
     album: "Hot Fuss",
     duration: 222,
     file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
-    cover: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&auto=format&fit=crop&q=80",
+    cover: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?w=300&auto=format&fit=crop&q=80",
     hues: [30, 60],
-    genre: "R&B & Chill"
+    genre: "Rock"
+  },
+  {
+    id: 84,
+    title: "Karma Police",
+    artist: "Radiohead",
+    album: "OK Computer",
+    duration: 264,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-5.mp3",
+    cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&auto=format&fit=crop&q=80",
+    hues: [230, 270],
+    genre: "Rock"
+  },
+  {
+    id: 85,
+    title: "Creep",
+    artist: "Radiohead",
+    album: "Pablo Honey",
+    duration: 236,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-6.mp3",
+    cover: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=300&auto=format&fit=crop&q=80",
+    hues: [180, 210],
+    genre: "Rock"
+  },
+  {
+    id: 86,
+    title: "Sunflower",
+    artist: "Post Malone & Swae Lee",
+    album: "Spider-Man: Into the Spider-Verse",
+    duration: 158,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-7.mp3",
+    cover: "https://images.unsplash.com/photo-1506157786151-b8491531f063?w=300&auto=format&fit=crop&q=80",
+    hues: [45, 65],
+    genre: "Hip Hop"
+  },
+  {
+    id: 87,
+    title: "Gangsta's Paradise",
+    artist: "Coolio",
+    album: "Gangsta's Paradise",
+    duration: 240,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-8.mp3",
+    cover: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&auto=format&fit=crop&q=80",
+    hues: [120, 280],
+    genre: "Hip Hop"
+  },
+  {
+    id: 88,
+    title: "Yeah!",
+    artist: "Usher ft. Lil Jon & Ludacris",
+    album: "Confessions",
+    duration: 250,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-9.mp3",
+    cover: "https://images.unsplash.com/photo-1470225620780-dba8ba36b745?w=300&auto=format&fit=crop&q=80",
+    hues: [140, 160],
+    genre: "Hip Hop"
+  },
+  {
+    id: 89,
+    title: "Lucid Dreams",
+    artist: "Juice WRLD",
+    album: "Goodbye & Good Riddance",
+    duration: 239,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-10.mp3",
+    cover: "https://images.unsplash.com/photo-1487180142328-054b783fc471?w=300&auto=format&fit=crop&q=80",
+    hues: [300, 320],
+    genre: "Hip Hop"
+  },
+  {
+    id: 90,
+    title: "Industry Baby",
+    artist: "Lil Nas X & Jack Harlow",
+    album: "Montero",
+    duration: 212,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-11.mp3",
+    cover: "https://images.unsplash.com/photo-1513829096960-ef093143c524?w=300&auto=format&fit=crop&q=80",
+    hues: [340, 360],
+    genre: "Hip Hop"
+  },
+  {
+    id: 91,
+    title: "Rockstar",
+    artist: "Post Malone ft. 21 Savage",
+    album: "Beerbongs & Bentleys",
+    duration: 218,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-12.mp3",
+    cover: "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=300&auto=format&fit=crop&q=80",
+    hues: [10, 40],
+    genre: "Hip Hop"
+  },
+  {
+    id: 92,
+    title: "In Da Club",
+    artist: "50 Cent",
+    album: "Get Rich or Die Tryin'",
+    duration: 193,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-13.mp3",
+    cover: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=300&auto=format&fit=crop&q=80",
+    hues: [15, 30],
+    genre: "Hip Hop"
+  },
+  {
+    id: 93,
+    title: "Old Town Road",
+    artist: "Lil Nas X",
+    album: "7 EP",
+    duration: 157,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-14.mp3",
+    cover: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=300&auto=format&fit=crop&q=80",
+    hues: [35, 50],
+    genre: "Hip Hop"
+  },
+  {
+    id: 94,
+    title: "No Role Modelz",
+    artist: "J. Cole",
+    album: "2014 Forest Hills Drive",
+    duration: 292,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-15.mp3",
+    cover: "https://images.unsplash.com/photo-1483412033650-1015ddeb83d1?w=300&auto=format&fit=crop&q=80",
+    hues: [130, 160],
+    genre: "Hip Hop"
+  },
+  {
+    id: 95,
+    title: "Super Bass",
+    artist: "Nicki Minaj",
+    album: "Pink Friday",
+    duration: 200,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-16.mp3",
+    cover: "https://images.unsplash.com/photo-1516280440614-37939bbacd6a?w=300&auto=format&fit=crop&q=80",
+    hues: [330, 350],
+    genre: "Hip Hop"
+  },
+  {
+    id: 96,
+    title: "Riptide",
+    artist: "Vance Joy",
+    album: "Dream Your Life Away",
+    duration: 204,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-1.mp3",
+    cover: "https://images.unsplash.com/photo-1507838153414-b4b713384a76?w=300&auto=format&fit=crop&q=80",
+    hues: [140, 170],
+    genre: "Indie & Soul"
+  },
+  {
+    id: 97,
+    title: "Sweater Weather",
+    artist: "The Neighbourhood",
+    album: "I Love You.",
+    duration: 240,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-2.mp3",
+    cover: "https://images.unsplash.com/photo-1453090927415-5f45085b65c0?w=300&auto=format&fit=crop&q=80",
+    hues: [200, 180],
+    genre: "Indie & Soul"
+  },
+  {
+    id: 98,
+    title: "Do I Wanna Know?",
+    artist: "Arctic Monkeys",
+    album: "AM",
+    duration: 272,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-3.mp3",
+    cover: "https://images.unsplash.com/photo-1513829096960-ef093143c524?w=300&auto=format&fit=crop&q=80",
+    hues: [330, 300],
+    genre: "Indie & Soul"
+  },
+  {
+    id: 99,
+    title: "Pumped Up Kicks",
+    artist: "Foster the People",
+    album: "Torches",
+    duration: 239,
+    file: "https://www.soundhelix.com/examples/mp3/SoundHelix-Song-4.mp3",
+    cover: "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=300&auto=format&fit=crop&q=80",
+    hues: [160, 190],
+    genre: "Indie & Soul"
   }
 ];
 
@@ -1146,9 +1146,9 @@ export const PLAYLISTS: Playlist[] = [
     cover: "https://images.unsplash.com/photo-1510915228340-29c85a43dcfe?w=400&q=80"
   },
   {
-    id: "soul-chill",
-    name: "Soul & Chill",
-    description: "Smooth R&B, soul classics and relaxing vibes",
+    id: "extra-hits",
+    name: "Extra Hits",
+    description: "More chart-topping hits from rock, hip hop, and indie",
     hues: [45, 200],
     songIds: Array.from({ length: 20 }, (_, i) => i + 80), // 80 to 99
     cover: "https://images.unsplash.com/photo-1511671782779-c97d3d27a1d4?w=400&q=80"
@@ -1158,7 +1158,7 @@ export const PLAYLISTS: Playlist[] = [
     name: "Rainy Windows",
     description: "Comforting, melancholy and relaxing lo-fi acoustic afternoons",
     hues: [220, 260],
-    songIds: [4, 6, 8, 11, 22, 25, 30, 41, 44, 60, 61, 64, 70, 71, 73, 83, 84, 88, 89, 97],
+    songIds: [4, 6, 8, 11, 22, 25, 30, 41, 44, 60, 61, 64, 70, 71, 73, 96, 97, 98, 99],
     cover: "https://images.unsplash.com/photo-1484755560693-a4074577af3a?w=400&q=80"
   },
   {
@@ -1166,7 +1166,7 @@ export const PLAYLISTS: Playlist[] = [
     name: "Fresh Finds",
     description: "The absolute best emerging tracks from across all genres",
     hues: [300, 140],
-    songIds: [0, 1, 10, 21, 23, 27, 34, 43, 48, 52, 63, 66, 75, 78, 80, 81, 82, 90, 91, 92, 93, 94, 95, 96, 98, 99],
+    songIds: [0, 1, 10, 21, 23, 27, 34, 43, 48, 52, 63, 66, 75, 78, 80, 81, 82, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95],
     cover: "https://images.unsplash.com/photo-1518609878373-06d740f60d8b?w=400&q=80"
   }
 ];
