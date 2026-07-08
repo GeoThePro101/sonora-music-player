@@ -4,7 +4,7 @@
  */
 
 import React from 'react';
-import { AudioLines, House, Search, Library, Heart, Plus, Disc3 } from 'lucide-react';
+import { AudioLines, House, Search, Library, Heart, Plus, Disc3, User } from 'lucide-react';
 import { Playlist } from '../types';
 import { PLAYLISTS, getPlaylistArt } from '../data';
 
@@ -104,6 +104,21 @@ export const Sidebar: React.FC<SidebarProps> = ({
           <Heart className="w-3 h-3 text-white fill-white" />
         </div>
         <span>Liked Songs</span>
+      </button>
+
+      <button
+        onClick={() => {
+          setActiveTab('profile');
+          onSelectPlaylist('');
+        }}
+        className={`flex items-center gap-3 px-3 py-2.5 rounded-xl font-semibold text-sm transition-all duration-200 border ${
+          activeTab === 'profile'
+            ? 'bg-emerald-500/10 text-emerald-400 border-emerald-500/20'
+            : 'text-text-secondary hover:text-text-primary hover:bg-bg-card-hover border-transparent'
+        }`}
+      >
+        <User className="w-5 h-5" />
+        <span>Profile</span>
       </button>
 
       {/* Playlist Section Header */}

@@ -22,6 +22,7 @@ import {
   Music,
 } from 'lucide-react';
 import { Song, Playlist } from '../types';
+import { ProfilePage } from './ProfilePage';
 import { PLAYLISTS, getPlaylistArt, getProceduralArt } from '../data';
 
 interface MainContentProps {
@@ -201,6 +202,13 @@ export const MainContent: React.FC<MainContentProps> = ({
               </div>
             );
           })()
+        ) : activeTab === 'profile' ? (
+          /* Render Profile */
+          <ProfilePage
+            likedCount={likedSongIds.size}
+            totalSongsCount={songs.length}
+            recentlyPlayedCount={0}
+          />
         ) : activeTab === 'liked' ? (
           /* Render Saved Songs Banner details */
           <div className="relative rounded-2xl overflow-hidden p-6 md:p-8 bg-gradient-to-br from-emerald-500/10 via-bg-card to-bg-card/20 border border-border-app flex flex-col md:flex-row items-center gap-6 shadow-xl animate-[fadeUp_0.4s_ease-out]">

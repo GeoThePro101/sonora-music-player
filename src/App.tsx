@@ -11,7 +11,7 @@ import { PlaybackControls } from './components/PlaybackControls';
 import { audioEngine } from './audio';
 import { SONGS, PLAYLISTS, getProceduralArt } from './data';
 import { Song, RepeatMode } from './types';
-import { House, Search, Library, Heart, Sparkles, VolumeX } from 'lucide-react';
+import { House, Search, Library, Heart, Sparkles, VolumeX, User } from 'lucide-react';
 import { motion, AnimatePresence } from 'motion/react';
 
 export default function App() {
@@ -505,6 +505,19 @@ export default function App() {
         >
           <Heart className="w-5 h-5" />
           <span>Liked</span>
+        </button>
+
+        <button
+          onClick={() => {
+            setActiveTab('profile');
+            setActivePlaylistId(null);
+          }}
+          className={`flex flex-col items-center justify-center gap-1.5 text-[10px] font-semibold tracking-wider cursor-pointer ${
+            activeTab === 'profile' ? 'text-emerald-400' : 'text-text-muted'
+          }`}
+        >
+          <User className="w-5 h-5" />
+          <span>Profile</span>
         </button>
       </nav>
 
