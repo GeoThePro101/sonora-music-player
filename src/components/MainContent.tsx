@@ -523,7 +523,7 @@ export const MainContent: React.FC<MainContentProps> = ({
                   <div className="text-[10px] uppercase font-bold tracking-wider text-text-muted">Total Catalog</div>
                   <div className="text-lg font-bold font-display text-text-primary mt-1 flex items-center gap-1.5">
                     <Music className="w-4 h-4 text-emerald-400" />
-                    <span>80 Tracks</span>
+                    <span>{songs.length} Tracks</span>
                   </div>
                 </div>
 
